@@ -2,7 +2,7 @@ name: Deploy the webSocket
 on:
   push:
     branches: [main]
-  jobs:
+  job:
     build:
       steps:
         - name: Docker login

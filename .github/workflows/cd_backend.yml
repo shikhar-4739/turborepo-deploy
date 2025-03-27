@@ -2,7 +2,7 @@ name: Deploy the backend
 on:
   push:
     branches: [main]
-  jobs:
+  job:
     build:
       steps:
         - name: Docker login

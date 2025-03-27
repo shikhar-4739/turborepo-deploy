@@ -2,7 +2,7 @@ name: Deploy the frontend
 on:
   push:
     branches: [main]
-  jobs:
+  job:
     build:
       steps:
         - name: Docker login
